@@ -1,0 +1,5 @@
+
+- docker build -t sabackend .
+
+- docker run -p 8000:8000 --network [DOCKER_NETWORK] -it sabackend sh -c "python load.py [ARGS] && python manage.py runserver 0.0.0.0:8000"
+- docker run --network [DOCKER_NETWORK] -it sabackend sh -c "python manage.py listen [ARGS]"
