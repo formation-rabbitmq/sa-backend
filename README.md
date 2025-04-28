@@ -6,7 +6,7 @@
 
 ---
 
-- Créer le réseau pour les containers `docker network create applications-networks`
+- Créer le réseau pour les containers `docker network create applications-networks-simple`
 - Construire l'image docker `docker build -t sabackend .`
 - Lancer le serveur avec la commande `docker run -p 8000:8000 --network [DOCKER_NETWORK] -it sabackend sh -c "python load.py [ARGS] && python manage.py runserver 0.0.0.0:8000"` où les détails `[ARGS]` sont :
 
