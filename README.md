@@ -13,6 +13,7 @@
 ### Listes des arguments "[ARGS]" disponibles
 
 > -u [USERNAME] : Nom d'utilisateur (Non requis - par défaut 'guest')
+> 
 > -p [PASSWORD] : Mot de passe (Non requis - par défaut 'guest')
 > -rp [RABBITMQ_PORT] : Port du cluster rabbitmq  (Non requis - par défaut 5672)
 > -rh [RABBITMQ_HOST] : Host du cluster rabbitmq (Requis)
