@@ -1,3 +1,4 @@
+- docker network create applications-networks
 
 - docker build -t sabackend .
 
